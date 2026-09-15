@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="580" viewBox="0 0 1180 580" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="1180" height="580" fill="#f7f7f4"/>
+  <text x="30" y="42" font-size="26" font-weight="700" fill="#222">Raspberry Pi 4 — 40-pin header (board seen from above, USB ports on the right)</text>
+  <text x="30" y="70" font-size="16" fill="#555">The black 2×20 header along the top edge. Top row = outer row (board edge) = even pins. Bottom row = inner row = odd pins.</text>
+  <text x="30" y="92" font-size="16" fill="#555">Pin 1 is bottom-left, at the end near the SD-card slot and the "J8" mark.</text>
+  <rect x="30" y="108" width="1120" height="12" fill="#2b7a3d"/>
+  <text x="1120" y="138" font-size="13" fill="#2b7a3d" text-anchor="end">▲ top edge of the board</text>
+  <text x="68" y="138" font-size="13" fill="#c0392b" font-weight="700">▼ pins 2 and 4 are 5 V — never connect them</text>
+  <rect x="60" y="150" width="1060" height="140" rx="6" fill="#1a1a1a"/>
+  <rect x="68" y="152" width="94" height="4" fill="#c0392b"/>
+  <g fill="#c9c9c9">
+    <rect x="76" y="175" width="22" height="22"/><rect x="128" y="175" width="22" height="22"/>
+    <rect x="180" y="175" width="22" height="22" fill="#39b54a"/><rect x="232" y="175" width="22" height="22" fill="#8e44ad"/><rect x="284" y="175" width="22" height="22" fill="#f1c40f"/>
+    <rect x="336" y="175" width="22" height="22"/><rect x="388" y="175" width="22" height="22"/><rect x="440" y="175" width="22" height="22"/><rect x="492" y="175" width="22" height="22"/><rect x="544" y="175" width="22" height="22"/>
+    <rect x="596" y="175" width="22" height="22"/><rect x="648" y="175" width="22" height="22"/><rect x="700" y="175" width="22" height="22"/><rect x="752" y="175" width="22" height="22"/><rect x="804" y="175" width="22" height="22"/>
+    <rect x="856" y="175" width="22" height="22"/><rect x="908" y="175" width="22" height="22"/><rect x="960" y="175" width="22" height="22"/><rect x="1012" y="175" width="22" height="22"/><rect x="1064" y="175" width="22" height="22"/>
+    <rect x="76" y="243" width="22" height="22" fill="#e74c3c"/><rect x="128" y="243" width="22" height="22"/><rect x="180" y="243" width="22" height="22"/><rect x="232" y="243" width="22" height="22"/><rect x="284" y="243" width="22" height="22"/>
+    <rect x="336" y="243" width="22" height="22" fill="#2e86de"/><rect x="388" y="243" width="22" height="22"/><rect x="440" y="243" width="22" height="22"/><rect x="492" y="243" width="22" height="22"/><rect x="544" y="243" width="22" height="22"/>
+    <rect x="596" y="243" width="22" height="22"/><rect x="648" y="243" width="22" height="22"/><rect x="700" y="243" width="22" height="22"/><rect x="752" y="243" width="22" height="22"/><rect x="804" y="243" width="22" height="22"/>
+    <rect x="856" y="243" width="22" height="22"/><rect x="908" y="243" width="22" height="22"/><rect x="960" y="243" width="22" height="22"/><rect x="1012" y="243" width="22" height="22"/><rect x="1064" y="243" width="22" height="22"/>
+  </g>
+  <g font-size="13" text-anchor="middle" fill="#fff" font-weight="700">
+    <text x="87" y="169">2</text><text x="139" y="169">4</text><text x="191" y="169">6</text><text x="243" y="169">8</text><text x="295" y="169">10</text><text x="347" y="169">12</text><text x="399" y="169">14</text><text x="451" y="169">16</text><text x="503" y="169">18</text><text x="555" y="169">20</text>
+    <text x="607" y="169">22</text><text x="659" y="169">24</text><text x="711" y="169">26</text><text x="763" y="169">28</text><text x="815" y="169">30</text><text x="867" y="169">32</text><text x="919" y="169">34</text><text x="971" y="169">36</text><text x="1023" y="169">38</text><text x="1075" y="169">40</text>
+    <text x="87" y="282">1</text><text x="139" y="282">3</text><text x="191" y="282">5</text><text x="243" y="282">7</text><text x="295" y="282">9</text><text x="347" y="282">11</text><text x="399" y="282">13</text><text x="451" y="282">15</text><text x="503" y="282">17</text><text x="555" y="282">19</text>
+    <text x="607" y="282">21</text><text x="659" y="282">23</text><text x="711" y="282">25</text><text x="763" y="282">27</text><text x="815" y="282">29</text><text x="867" y="282">31</text><text x="919" y="282">33</text><text x="971" y="282">35</text><text x="1023" y="282">37</text><text x="1075" y="282">39</text>
+  </g>
+  <g stroke-width="3">
+    <line x1="87" y1="290" x2="87" y2="330" stroke="#e74c3c"/>
+    <line x1="347" y1="290" x2="347" y2="330" stroke="#2e86de"/>
+  </g>
+  <g font-size="15" fill="#222">
+    <text x="60" y="352" fill="#e74c3c" font-weight="700">pin 1 · 3V3</text>
+    <text x="60" y="372">← RED wire, socket hole 9 (SOP2)</text>
+    <text x="320" y="352" fill="#2e86de" font-weight="700">pin 11 · GPIO17</text>
+    <text x="320" y="372">← BLUE wire, socket hole 4 (RST)</text>
+  </g>
+  <rect x="620" y="315" width="530" height="210" rx="10" fill="#fff" stroke="#ccc"/>
+  <g font-size="16" fill="#222">
+    <text x="640" y="345" font-weight="700">Outer row — 3rd, 4th and 5th pin from the left:</text>
+    <rect x="640" y="360" width="18" height="18" fill="#39b54a"/><text x="668" y="375">pin 6 · GND ← GREEN, hole 5 (GND)</text>
+    <rect x="640" y="390" width="18" height="18" fill="#8e44ad"/><text x="668" y="405">pin 8 · TXD ← PURPLE, hole 2 (box RX)</text>
+    <rect x="640" y="420" width="18" height="18" fill="#f1c40f"/><text x="668" y="435">pin 10 · RXD ← YELLOW, hole 1 (box TX)</text>
+    <text x="640" y="470" font-weight="700">Inner row:</text>
+    <rect x="640" y="484" width="18" height="18" fill="#e74c3c"/><text x="668" y="499">pin 1 · 3V3 ← RED, hole 9</text>
+    <rect x="890" y="484" width="18" height="18" fill="#2e86de"/><text x="918" y="499">pin 11 · GPIO17 ← BLUE, hole 4</text>
+  </g>
+  <text x="30" y="560" font-size="13" fill="#555">"Hole" = hole in the TC2050-IDC ribbon socket (zigzag numbering, see the guide). Box pad 3 (VCC) stays unconnected.</text>
+</svg>
