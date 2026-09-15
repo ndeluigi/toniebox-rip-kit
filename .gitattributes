@@ -1,0 +1,6 @@
+# scripts run on the Pi / Linux host: always LF, even from a Windows checkout
+*.sh text eol=lf
+*.py text eol=lf
+*.example text eol=lf
+*.md text eol=lf
+*.png binary
