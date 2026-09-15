@@ -1,0 +1,11 @@
+# box dumps: private key, certificates, flash image - never commit
+rip/
+backup/
+backup.bin
+backup.bin.sha256
+cert/
+*.der
+*.pem
+*.bin
+*.taf
+verify-ca.der
