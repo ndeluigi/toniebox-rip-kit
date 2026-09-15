@@ -58,4 +58,8 @@ All of the hard reverse-engineering is other people's work: the
 (teddycloud, cc3200tool fork, the wiki at <https://tonies-wiki.revvox.de>). This repo is just the
 assembly instructions for one specific path through it.
 
+Images: the Toniebox PCB photo and pad pinout (`docs/img/toniebox_pcb_debug_port.png`,
+`debug_port_pin_out.png`) come from the Toniebox reverse engineering wiki; the Raspberry Pi 4
+photo is a product photo annotated for this guide; the two wiring diagrams were drawn for this repo.
+
 Independent hobby project, not affiliated with tonies GmbH / Boxine.

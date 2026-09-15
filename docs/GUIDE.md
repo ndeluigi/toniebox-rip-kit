@@ -120,7 +120,11 @@ top row:      1   3   5   7   9      (1 = top-left, next to the red-stripe wire)
 bottom row:   2   4   6   8  10
 ```
 
-Wire N on the ribbon = pad N on the box = socket hole N. Connect:
+Wire N on the ribbon = pad N on the box = socket hole N.
+
+![Debug port pads, ribbon socket and Pi mapping](img/debug-port-wiring.png)
+
+Connect:
 
 | Socket hole | Box signal | Pi header pin | Suggested wire colour |
 |---|---|---|---|
